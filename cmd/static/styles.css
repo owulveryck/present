@@ -299,9 +299,17 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 85px;
+
   line-height: 45px;
 
+  /*
   position: absolute;
   bottom: 150px;
 
@@ -310,7 +318,7 @@ h2 {
   padding-right: 40px;
 
   font-weight: 600;
-
+*/
   letter-spacing: -2px;
 
   color: #0e2356;
