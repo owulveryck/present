@@ -43,3 +43,11 @@ rest
 * background
 
 .background assets/background.jpg
+
+* illustration
+
+.illustration assets/Go-Logo_Blue.png 100 _
+
+content is aside of the illustration
+- 1
+- 2

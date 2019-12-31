@@ -10,23 +10,23 @@ import (
 )
 
 func init() {
-	Register("image", parseIllustration)
+	Register("illustration", parseImage)
 }
 
-type Illustration struct {
+type Image struct {
 	URL    string
 	Width  int
 	Height int
 }
 
-func (i Illustration) TemplateName() string { return "image" }
+func (i Image) TemplateName() string { return "illustration" }
 
-func parseIllustration(ctx *Context, fileName string, lineno int, text string) (Elem, error) {
+func parseImage(ctx *Context, fileName string, lineno int, text string) (Elem, error) {
 	args := strings.Fields(text)
 	if len(args) < 2 {
 		return nil, fmt.Errorf("incorrect image invocation: %q", text)
 	}
-	img := Illustration{URL: args[1]}
+	img := Image{URL: args[1]}
 	a, err := parseArgs(fileName, lineno, args[2:])
 	if err != nil {
 		return nil, err

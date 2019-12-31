@@ -68,8 +68,8 @@
     /*
     margin-left: -550px;
     width: 1100px;
-*/
     padding: 40px 160px;
+*/
   }
 
   .slides.layout-widescreen > article:not(.nobackground):not(.biglogo),
@@ -559,3 +559,8 @@ figcaption {
   font-size: 100% !important;
 }
 
+.illustration {
+  position: fixed;
+  top: 15%;
+  right: 5%;
+}
