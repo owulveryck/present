@@ -560,6 +560,6 @@ figcaption {
 
 .illustration {
   position: fixed;
-  top: 15%;
+  bottom: 15%;
   right: 10%;
 }
