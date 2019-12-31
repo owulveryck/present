@@ -356,7 +356,7 @@ ul li::before {
 }
 
 div.code {
-  padding: 5px 10px;
+  padding: 0px 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   overflow: hidden;
