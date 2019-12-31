@@ -272,7 +272,7 @@ a:hover {
 }
 
 p {
-  margin: 0;
+  margin: 25px;
 
   margin-top: 20px;
 }
@@ -324,8 +324,8 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 40px;
+  line-height: 55px;
 
   padding: 0;
   margin: 0;
@@ -334,7 +334,7 @@ h3 {
   border-bottom: 1px solid #888;
   font-weight: 600;
 
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 
   color: #0e2356;
 }
@@ -561,5 +561,5 @@ figcaption {
 .illustration {
   position: fixed;
   top: 15%;
-  right: 5%;
+  right: 10%;
 }
