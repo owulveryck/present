@@ -7,9 +7,30 @@ myemail@myprovider.com
 https://github.com/owulveryck/present
 @owulveryck
 
+
 * code
+.html script.html
 
 .play -edit main.go
+
+* graph
+
+$$ g(z) = \frac{1}{1 + e^{-z}}$$
+.html test.html
+
+* Régression linéaire univariée
+
+- Pour chaque point $x_i$ correspond une valeur de la fonction hypothèse $h(x_i)$ qui est plus ou moins proche de la vérité $y_i$
+
+- On définit l'erreur pour $x_i$ par $ (h(x_{i}) - y_{i})^2 $
+
+- On somme l’erreur sur tout le dataset pour avoir l’erreur globale – la fonction de coût :
+
+$$ J(\theta_{0}, \theta_{1}) =\frac{1}{2m} \sum_{i=1}^{m}(h_{\theta}(x_{i}) - y_{i})^2 $$
+
+* Gradient descent
+
+.html gd.html
 
 * Enum
 
@@ -27,7 +48,7 @@ fdsfds
 
 * mathjax
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{7}$$
 
 * logo
 
@@ -35,10 +56,14 @@ $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
 rest
 
+* un slide
+
+un contenu
+
 * next
 
 .image assets/Go-Logo_Blue.png 100 _
-.caption _Logo by [[http://golang.org][The Go team]]
+.caption _Logo by [[http://golang.org][The Go team]]_
 
 * background
 
@@ -46,8 +71,20 @@ rest
 
 * illustration
 
-.illustration assets/Go-Logo_Blue.png 100 _
 
 content is aside of the illustration
 - 1
 - 2
+
+* python
+
+.code test.py /Adding/,/print/
+
+* example
+
+a
+
+** h4?
+
+b
+** h4...

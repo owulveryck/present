@@ -1,0 +1,14 @@
+<center>
+<div id="graph1" />
+  <script type="text/javascript">
+    functionPlot({
+      title: 'sigmoid',
+      target: '#graph1',
+      annotations: [ { y: 0.5, text: 'y = 0.5' }],
+      disableZoom: true,
+      xAxis: { label: 'x', domain: [-6, 6] },
+      yAxis: { label: '1/(1+exp(-x))', domain: [0, 1.2]  },
+      data: [{ fn: '1/(1+exp(-x))' }]
+})
+</script>
+</center>
